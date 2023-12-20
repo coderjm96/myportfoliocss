@@ -1,0 +1,47 @@
+
+.title {
+    
+
+    font-family: 'Rubik Doodle Triangles', sans-serif;
+}
+
+
+
+
+.top {
+	background: linear-gradient(300deg, #7CDB91, #7DDBB1, #7DDBCC, #7BADDB);
+	background-size: 180% 180%;
+	animation: gradient 18s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.sentence {
+    font-size: 45px;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.name {
+    font-size: 100px;
+}
+
+h2 {
+    color: aqua;
+}
+
+.profileimg {
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+}
